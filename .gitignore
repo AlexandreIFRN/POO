@@ -1,28 +1,33 @@
-# Ignorar arquivos temporários do sistema
-*.log
-*.tmp
-*.swp
-
-# Ignorar dependências (exemplo Node.js)
+# Node/TypeScript
 node_modules/
-
-# Ignorar build
 dist/
 build/
-
-# Ignorar configs locais
-.env
-
-# Dependências
-node_modules/
-
-# Arquivos compilados de TS
-*.js
-*.js.map
-*.d.ts
-
-# Configurações locais
-.env
+out/
+*.tsbuildinfo
 
 # Logs
+npm-debug.log*
+yarn-*.log
+pnpm-debug.log*
 *.log
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache/ferramentas
+.eslintcache
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+
+# SO/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+dist/
+*.tsbuildinfo

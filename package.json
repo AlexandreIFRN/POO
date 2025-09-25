@@ -1,15 +1,17 @@
 {
   "name": "poo",
   "version": "1.0.0",
-  "type": "module",
-  "private": true,
+  "description": "",
+  "main": "data.js",
   "scripts": {
-    "build": "tsc -p .",
-    "dev": "tsc -p . --watch",
-    "start": "node dist/media.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.18.6",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
 }
