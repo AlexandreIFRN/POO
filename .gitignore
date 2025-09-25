@@ -1,0 +1,28 @@
+# Ignorar arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+
+# Ignorar dependências (exemplo Node.js)
+node_modules/
+
+# Ignorar build
+dist/
+build/
+
+# Ignorar configs locais
+.env
+
+# Dependências
+node_modules/
+
+# Arquivos compilados de TS
+*.js
+*.js.map
+*.d.ts
+
+# Configurações locais
+.env
+
+# Logs
+*.log
