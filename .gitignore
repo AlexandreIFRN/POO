@@ -31,3 +31,6 @@ Thumbs.db
 node_modules/
 dist/
 *.tsbuildinfo
+node_modules/
+dist/
+*.tsbuildinfo
